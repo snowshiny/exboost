@@ -1,12 +1,10 @@
 const Exboost = require('../lib');
 const Path = require('path');
-const XError = require('../lib/xerror')
 
-process.env.DEBUG=''
-
-Exboost({
+Exboost.start({
     ctrlDir: Path.join(__dirname, './controllers')
     ,ctrlBaseUrl: '/'
+    ,enableLog: true
     ,onError: function (e) {
         console.log(e);
     }
