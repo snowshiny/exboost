@@ -1,6 +1,6 @@
 {
   "name": "exboost",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "an awesome web framework based on express",
   "main": "lib/index.js",
   "scripts": {
